@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+
+  
+  .formularioRegistro {
+    background-color: #ffffff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.2);
+    margin: 20px auto;
+    max-width: 500px;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], select {
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 16px;
+    padding: 10px;
+    width: 100%;
+  }
+  .botonParaRegistrar{
+ 
+    border: none;
+    background-color:#35b629;
+    color: #fff;
+    padding: 20px 30px;
+    text-align: center;
+    display: inline-block;
+    margin-top: 20px;
+    border-radius: 40px;
+    transition: all 0.2s ease-in-out;
+    
+  }
+  .botonParaRegistrar:hover {
+    background-color: #4d4c4c;
+    color: #ffffff;
+    cursor: pointer;
+  }
+
+
+
+
+  
+  body{
+    margin: 0;
+    padding: 0;
+    }
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: #333;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      }
+      
+      .navbar a {
+        text-decoration: none;
+        color: white;
+        margin-right: 20px;
+        font-size: 18px;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+      }
+      
+      .navbar form {
+        display: flex;
+        align-items: center;
+      }
+      
+      .navbar input[type="texto"] {
+        padding: 10px;
+        border-radius: 50px 0 0 50px;
+        border: none;
+        margin-right: -5px;
+        font-size: 14px;
+        width: 300px;
+        background-color: white;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .navbar input[type="texto"]:focus {
+        width: 350px;
+        border-radius: 50px 0 0 50px;
+      }
+    .navbar input[type="texto"]:hover{
+      width: 350px;
+      border-radius: 50px 0 0 50px;
+    
+    }
+    
+      
+      .navbar input[type="submit"] {
+        background-color: #36aa2b;
+        border-radius: 0 50px 50px 0;
+        padding: 10px 20px;
+        color: white;
+        font-size: 14px;
+        font-weight: bold;
+        transition: all 0.3s ease-in-out;
+      }
+      
+      .navbar input[type="submit"]:hover {
+        background-color: #6bc91e;
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+      
+      .navbar input[type="submit"]:active {
+        transform: scale(0.95);
+      }
+      
+      @media (max-width: 700px) {
+        .navbar {
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .navbar form {
+          width: 100%;
+          margin-top: 20px;
+        }
+      }
